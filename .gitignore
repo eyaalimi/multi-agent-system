@@ -1,0 +1,48 @@
+# Python virtual environment
+venv/
+env/
+ENV/
+.venv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebooks (since you're using Python scripts)
+*.ipynb
+agents-as-tools-interleaved.ipynb
+agent-as-tools.ipynb
+.ipynb_checkpoints/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# AWS credentials (important!)
+.aws/
+credentials
+
+# Output files
+*.log
+*.txt.bak
+output/
+temp/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
